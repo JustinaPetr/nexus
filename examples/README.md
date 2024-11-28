@@ -55,7 +55,7 @@ Run with `just example trip-planner`.
 
 ## Example: Research Assistant
 
-This [example][research_planner] demonstrates the functionality of an agent designed to help students and researchers to write scientific papers. This example uses `wikipedia` and `arxiv` [tools](../offchain/tools/README.md) to search for information and research papers relevant to the specied research topic. 
+This [example][research_assistant] demonstrates the functionality of an agent designed to help students and researchers to write scientific papers. This example uses `wikipedia` and `arxiv` [tools](../offchain/tools/README.md) to search for information and research papers relevant to the specied research topic. 
 
 ### Skills
 
@@ -98,3 +98,4 @@ Events allow offchain systems to respond to onchain actions, automating tool exe
 [trip_planner]: ./trip_planner.py
 [cli_cluster]: ./cli_cluster.py
 [design_cluster]: ../onchain/README.md#cluster
+[research_assistant]: ./research_assistant.py
