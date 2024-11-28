@@ -69,7 +69,7 @@ The agent has the following skills:
 
 To run this example, execute the following command in your terminal:
 
-`just example trip-planner`
+`just example research-assistant`
 
 
 
