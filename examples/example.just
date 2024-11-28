@@ -27,3 +27,9 @@ trip-planner:
 cli-cluster:
     @__import__('os').system("just containers check")
     @__import__('os').system("docker exec -it examples /bin/bash -c \"source .venv/bin/activate && python examples/main.py cli_cluster\"")
+
+# Runs an example that prompts the user describe the research paper they want to work on.
+[no-cd]
+research-assistant:
+    @__import__('os').system("just containers check")
+    @__import__('os').system("docker exec -it examples /bin/bash -c \"source .venv/bin/activate && python examples/main.py research_assistant\"")

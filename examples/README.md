@@ -52,6 +52,25 @@ SDK.
 
 Run with `just example trip-planner`.
 
+
+## Example: Research Assistant
+
+This [example][research_planner] demonstrates the functionality of an agent designed to help students and researchers to write scientific papers. This example uses `wikipedia` and `arxiv` [tools](../offchain/tools/README.md) to search for information and research papers relevant to the specied research topic. 
+
+### Skills
+
+The agent has the following skills:
+* Ask the user for the type of paper they want to write, the topic of the paper, and the approximate length.
+* Research Wikipedia for relevant points to cover in the paper.
+* Look for relevant papers on arXiv.
+* Provide a comprehensive overview of suggested points to cover in the paper, a list of relevant existing research papers, and guidelines on how to write a good research paper for the required topic.
+
+### Run this example
+
+`just example trip-planner`.
+
+
+
 ## Example: CLI Cluster
 
 This [example][cli_cluster] prompts the user to create a [cluster][design_cluster] by describing
