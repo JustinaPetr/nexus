@@ -67,7 +67,9 @@ The agent has the following skills:
 
 ### Run this example
 
-`just example trip-planner`.
+To run this example, execute the following command in your terminal:
+
+`just example trip-planner`
 
 
 
